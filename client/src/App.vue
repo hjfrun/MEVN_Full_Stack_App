@@ -3,8 +3,8 @@
     <v-navigation-drawer v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-title> He Jianfeng </v-list-item-title>
-          <v-list-item-subtitle> MEVN Full Stack App </v-list-item-subtitle>
+          <v-list-item-title> 贺剑峰 </v-list-item-title>
+          <v-list-item-subtitle> MEVN 全栈应用 </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
       <v-divider></v-divider>
@@ -25,7 +25,7 @@
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Application</v-toolbar-title>
+      <v-toolbar-title>影视一栏</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -39,9 +39,9 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { title: 'Home', icon: 'mdi-home', link: '/' },
-      { title: 'Add Post', icon: 'mdi-note-plus', link: '/add-post' },
-      { title: 'About', icon: 'mdi-help-box', link: '/about' }
+      { title: '主页', icon: 'mdi-home', link: '/' },
+      { title: '新增', icon: 'mdi-note-plus', link: '/add-post' },
+      { title: '关于', icon: 'mdi-help-box', link: '/about' }
     ]
   })
 }
