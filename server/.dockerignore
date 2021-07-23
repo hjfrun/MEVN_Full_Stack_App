@@ -1,5 +1,6 @@
 node_modules
 Dockerfile
+uploads
 .dockerignore
 .git
 .gitignore
